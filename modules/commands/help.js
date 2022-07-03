@@ -4,7 +4,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Mirai Team ",
 	description: "Hướng dẫn cho người mới",
-	commandCategory: "system",
+	commandCategory: "Nhóm",
 	usages: "[Tên module]",
 	cooldowns: 5,
 	envConfig: {

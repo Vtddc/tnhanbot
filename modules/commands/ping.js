@@ -5,7 +5,7 @@ module.exports.config = {
 	credits: "Mirai Team & chỉnh font chữ by tnhan",
 	//Chỉnh font chữ không phải là khó, nhưng cần sự kiên trì nên hãy tôn trọng công sức của tôi bỏ ra=))
 	description: "tag toàn bộ thành viên",
-	commandCategory: "Dành cho người dùng",
+	commandCategory: "Nhóm",
 	usages: "[Text]",
 	cooldowns: 80
 };

@@ -15,8 +15,8 @@ module.exports.run = async({ event, api, Threads, Users }) => {
     if (type == "tự rời") {
         api.addUserToGroup(event.logMessageData.leftParticipantFbId, event.threadID, (error, info) => {
             if (error) {
-                api.sendMessage(`[🐧] 𝐀𝐍𝐓𝐈𝐎𝐔𝐓 [🐧] 𝐊𝐡𝐨̂𝐧𝐠 𝐦𝐨̛̀𝐢 𝐥𝐚̣𝐢 đ𝐮̛𝐨̛̣𝐜 đ𝐮̛́𝐚 𝐭𝐡𝐢́𝐜𝐡 𝐨𝐮𝐭 𝐜𝐡𝐮̀𝐚 ${name} 𝐯𝐚̀𝐨 𝐧𝐡𝐨́𝐦 :( `, event.threadID)
-            } else api.sendMessage(`[🐧] 𝐀𝐍𝐓𝐈𝐎𝐔𝐓 [🐧] Đ𝐚̃ 𝐦𝐨̛̀𝐢 𝐥𝐚̣𝐢  ${name} 𝐥𝐚̀ đ𝐮̛́𝐚 𝐭𝐡𝐢́𝐜𝐡 𝐨𝐮𝐭 𝐜𝐡𝐮̀𝐚. 𝐂𝐡𝐮𝐚̂̉𝐧 𝐛𝐢̣ 𝐭𝐢𝐧𝐡 𝐭𝐡𝐚̂̀𝐧 đ𝐢`, event.threadID);
+                api.sendMessage(`[🐧] 𝐀𝐍𝐓𝐈𝐎𝐔𝐓 \n[🐧] 𝐊𝐡𝐨̂𝐧𝐠 𝐦𝐨̛̀𝐢 𝐥𝐚̣𝐢 đ𝐮̛𝐨̛̣𝐜 đ𝐮̛́𝐚 𝐭𝐡𝐢́𝐜𝐡 𝐨𝐮𝐭 𝐜𝐡𝐮̀𝐚 ${name} 𝐯𝐚̀𝐨 𝐧𝐡𝐨́𝐦 :( `, event.threadID)
+            } else api.sendMessage(`[🐧] 𝐀𝐍𝐓𝐈𝐎𝐔𝐓 \n[🐧] Đ𝐚̃ 𝐦𝐨̛̀𝐢 𝐥𝐚̣𝐢  ${name} 𝐥𝐚̀ đ𝐮̛́𝐚 𝐭𝐡𝐢́𝐜𝐡 𝐨𝐮𝐭 𝐜𝐡𝐮̀𝐚. 𝐂𝐡𝐮𝐚̂̉𝐧 𝐛𝐢̣ 𝐭𝐢𝐧𝐡 𝐭𝐡𝐚̂̀𝐧 đ𝐢`, event.threadID);
         })
     }
 }
