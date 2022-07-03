@@ -1,0 +1,40 @@
+{
+  "name": "Đỗ Văn Huy",
+  "ID": "100063495618223",
+  "pet": [
+    {
+      "name": "Sentret",
+      "type": "Normal",
+      "HP": "14.0",
+      "Attack": "18.4",
+      "Defense": "13.6",
+      "Speed": "8.0",
+      "skill": [
+        "Run Away",
+        "Keen Eye",
+        "Frisk"
+      ],
+      "coins": 0,
+      "images": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/161.png"
+    },
+    {
+      "name": "Celesteela",
+      "type": "Steel",
+      "HP": "48.5",
+      "Attack": "50.5",
+      "Defense": "51.5",
+      "Speed": "30.5",
+      "skill": [
+        "Beast Boost"
+      ],
+      "coins": 5000,
+      "images": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/797.png"
+    }
+  ],
+  "foods": [],
+  "solo": {
+    "win": 0,
+    "lose": 0,
+    "draw": 0
+  }
+}

@@ -5,8 +5,8 @@
     "autoCreateDB": true,
     "allowInbox": true,
     "autoClean": false,
-    "adminPaseOnly": true,
-    "encryptAppstate": false,
+    "adminPaseOnly": false,
+    "encryptAppstate": true,
     "commandDisabled": [],
     "eventDisabled": [],
     "EMAIL": "",
@@ -15,10 +15,10 @@
     "BOTNAME": "𝐭𝐧𝐡𝐚𝐧 ⸙",
     "PREFIX": "!",
     "ADMINBOT": [
-        "1535220001"
+        "UIDFacebook"
     ],
     "NDH": [
-        "1535220001"
+        "UIDFacebook"
     ],
     "DATABASE": {
         "sqlite": {

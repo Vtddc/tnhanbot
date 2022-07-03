@@ -55,12 +55,12 @@ var love = res.data.data;
   if (thu == 'Saturday') thu = '𝐓𝐡𝐮̛́ 𝐁𝐚̉𝐲'
     const timeStart = Date.now();
 	let today = new Date();
- axios.get('https://random.tnhanxtthuy.tk/gai').then(res => {
- let ext = res.data.url.substring(res.data.url.lastIndexOf(".") + 1);
+ axios.get('https://jrt-api.jrt-official.repl.co/gai').then(res => {
+ let ext = res.data.data.substring(res.data.data.lastIndexOf(".") + 1);
  let callback = function () {
      api.sendMessage({body: `𝗖𝗵𝗮̀𝗼 𝗰𝗮̣̂𝘂: ${name}\n𝗛𝗼̂𝗺 𝗻𝗮𝘆 𝗹𝗮̀: ${thu} || ${gio}\n𝗕𝗼𝘁 đ𝗮̃ 𝗵𝗼𝗮̣𝘁 đ𝗼̣̂𝗻𝗴 đ𝘂̛𝗼̛̣𝗰: ${hours} giờ ${minutes} phút ${seconds} giây.\n[ 𝗣𝗿𝗲𝗳𝗶𝘅 ] : ${global.config.PREFIX}\n[ 𝗧𝗼̂̉𝗻𝗴 𝗻𝗴𝘂̛𝗼̛̀𝗶 𝗱𝘂̀𝗻𝗴 ] : ${global.data.allUserID.length}\n[ 𝗧𝗼̂̉𝗻𝗴 𝗻𝗵𝗼́𝗺 ] : ${global.data.allThreadID.length}\n[ 𝗖𝗽𝘂 đ𝗮𝗻𝗴 𝘀𝘂̛̉ 𝗱𝘂̣𝗻𝗴 ] : ${pidusage.cpu.toFixed(1)}\n[ 𝗥𝗮𝗺 đ𝗮𝗻𝗴 𝘀𝘂̛̉ 𝗱𝘂̣𝗻𝗴 ] : ${byte2mb(pidusage.memory)}\n[ 𝗣𝗶𝗻𝗴 ] : ${Date.now() - timeStart}ms\n[ 𝗧𝗵𝗶́𝗻𝗵 ] : ${love}\n`, attachment: fs.createReadStream(__dirname + `/cache/waifu.${ext}`)
      }, event.threadID, () => fs.unlinkSync(__dirname + `/cache/waifu.${ext}`), event.messageID);
     };
-    request(res.data.url).pipe(fs.createWriteStream(__dirname + `/cache/waifu.${ext}`)).on("close", callback);
+    request(res.data.data).pipe(fs.createWriteStream(__dirname + `/cache/waifu.${ext}`)).on("close", callback);
    })
 }

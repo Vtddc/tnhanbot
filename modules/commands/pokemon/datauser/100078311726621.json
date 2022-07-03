@@ -1,0 +1,68 @@
+{
+  "name": null,
+  "ID": "100078311726621",
+  "pet": [
+    {
+      "name": "Absol",
+      "type": "Dark",
+      "HP": 24.7,
+      "Attack": 49.4,
+      "Defense": 22.8,
+      "Speed": 28.5,
+      "skill": [
+        "Pressure",
+        "Super Luck",
+        "Justified"
+      ],
+      "coins": 0,
+      "images": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/359.png"
+    },
+    {
+      "name": "Regice",
+      "type": "Ice",
+      "HP": "80.0",
+      "Attack": "50.0",
+      "Defense": "100.0",
+      "Speed": "50.0",
+      "skill": [
+        "Clear Body",
+        "Ice Body"
+      ],
+      "coins": 10000,
+      "images": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/378.png"
+    },
+    {
+      "name": "Cryogonal",
+      "type": "Ice",
+      "HP": "114.0",
+      "Attack": 71.25,
+      "Defense": 71.25,
+      "Speed": 149.625,
+      "skill": [
+        "Levitate"
+      ],
+      "coins": 19000,
+      "images": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/615.png"
+    },
+    {
+      "name": "Emolga",
+      "type": "Electric",
+      "HP": "22.0",
+      "Attack": "30.0",
+      "Defense": "24.0",
+      "Speed": "41.2",
+      "skill": [
+        "Static",
+        "Motor Drive"
+      ],
+      "coins": 0,
+      "images": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/587.png"
+    }
+  ],
+  "foods": [],
+  "solo": {
+    "win": 0,
+    "lose": 2,
+    "draw": 1
+  }
+}

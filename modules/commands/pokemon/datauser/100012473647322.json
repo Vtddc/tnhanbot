@@ -1,0 +1,25 @@
+{
+  "name": "Đặng Khánh",
+  "ID": "100012473647322",
+  "pet": [
+    {
+      "name": "Unown",
+      "type": "Psychic",
+      "HP": "18.2",
+      "Attack": 27.36,
+      "Defense": 18.24,
+      "Speed": 18.24,
+      "skill": [
+        "Levitate"
+      ],
+      "coins": 0,
+      "images": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/201.png"
+    }
+  ],
+  "foods": [],
+  "solo": {
+    "win": 0,
+    "lose": 1,
+    "draw": 0
+  }
+}
