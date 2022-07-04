@@ -6,7 +6,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Mirai-Team",
 	description: "Random ảnh theo api - uptime",
-	commandCategory: "tiện ích",
+	commandCategory: "Nhóm",
 	cooldowns: 3,
   dependencies: {
 		"pidusage": ""
