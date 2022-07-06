@@ -6,7 +6,7 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Mirai-Team",
 	description: "Random ảnh theo api - uptime",
-	commandCategory: "tiện ích",
+	commandCategory: "Nhóm",
 	cooldowns: 3,
   dependencies: {
 		"pidusage": ""
@@ -110,7 +110,7 @@ let a = await loadImage(pathAva)
     ctx.textAlign = "center";
     ctx.font = "750px Grandstander";
     ctx.fillStyle = "#FFF"
-    ctx.fillText("THIEN NHAN", canvas.width / 2 - 700, 1650);
+    ctx.fillText("MIRAI BOT", canvas.width / 2 - 700, 1650);
     ctx.save();
     ctx.font = "350px Grandstander";
     ctx.fillStyle = "#000"
@@ -130,7 +130,7 @@ let a = await loadImage(pathAva)
     const imageBuffer = canvas.toBuffer();
     fs.writeFileSync(pathImg, imageBuffer);
   return api.sendMessage({
-    body: `=== 𝗨𝗣𝗧𝗜𝗠𝗘 𝗥𝗢𝗕𝗢𝗧 ====\n→ 𝗕𝗼𝘁 đ𝗮̃ 𝗵𝗼𝗮̣𝘁 đ𝗼̣̂𝗻𝗴 đ𝘂̛𝗼̛̣𝗰 ${hours} giờ ${minutes} phút ${seconds} giây\n━━━━━━━━━━━━━━━━━━\n『 𝗧𝗼̂̉𝗻𝗴 𝗻𝗴𝘂̛𝗼̛̀𝗶 𝗱𝘂̀𝗻𝗴 』: ${global.data.allUserID.length}\n『 𝗧𝗼̂̉𝗻𝗴 𝗻𝗵𝗼́𝗺 』: ${global.data.allThreadID.length}\n『 𝗖𝗽𝘂 đ𝗮𝗻𝗴 𝘀𝘂̛̉ 𝗱𝘂̣𝗻𝗴 』: ${pidusage.cpu.toFixed(1)}%\n『 𝗥𝗮𝗺 đ𝗮𝗻𝗴 𝘀𝘂̛̉ 𝗱𝘂̣𝗻𝗴 』: ${byte2mb(pidusage.memory)}\n『 𝗣𝗶𝗻𝗴 』: ${Date.now() - timeStart}ms\n『 𝗜𝗗 𝗡𝗵𝗮̂𝗻 𝗩𝗮̣̂𝘁 』: ${id}`,
+    body: `=== 𝗨𝗣𝗧𝗜𝗠𝗘 𝗥𝗢𝗕𝗢𝗧 ===\n\n→ 𝗕𝗼𝘁 đ𝗮̃ 𝗵𝗼𝗮̣𝘁 đ𝗼̣̂𝗻𝗴 đ𝘂̛𝗼̛̣𝗰: ${hours} giờ ${minutes} phút ${seconds} giây\n━━━━━━━━━━━━━━━━━━\n『 𝗧𝗼̂̉𝗻𝗴 𝗻𝗴𝘂̛𝗼̛̀𝗶 𝗱𝘂̀𝗻𝗴 』: ${global.data.allUserID.length}\n『 𝗧𝗼̂̉𝗻𝗴 𝗻𝗵𝗼́𝗺 』: ${global.data.allThreadID.length}\n『 𝗣𝗶𝗻𝗴 』: ${Date.now() - timeStart}ms\n『 𝗜𝗗 𝗡𝗵𝗮̂𝗻 𝗩𝗮̣̂𝘁 』: ${id}`,
     attachment: fs.createReadStream(pathImg)
   },
     event.threadID,
