@@ -28,4 +28,4 @@ Tớ tên là Nguyễn Thiện Nhân hay còn được gọi là tnhan ._.
 - ⚡ Facebook : **[Nguyễn Thiện Nhân](https://www.facebook.com/tnhantl)**
 - ⚡ Instagram : **[Nguyễn Thiện Nhân](https://www.instagram.com/tnhantl)**
 - ⚡ Telegram : **[Nguyễn Thiện Nhân](https://t.me/tnhantl)**
-- ⚡ Gmail : **[contact@thiennhan.studio](mailto:contact@thiennhan.studio)**
+- ⚡ Email : **[contact@thiennhan.studio](mailto:contact@thiennhan.studio)**
